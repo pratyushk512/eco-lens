@@ -5,6 +5,7 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import {uploadOnCloudinary} from "../utils/cloudinary.js"
 import detectImagewithGoogleCloudVision from "../utils/detectImageWithCloudVision.js";
+import { calculateSustainabilityScore } from "../utils/sustainabilityScore.js";
 
 const getReportsByUser= asyncHandler(async(req,res)=>{
     const user= await User.findById(req.user._id);
@@ -39,10 +40,20 @@ const scanNewProduct= asyncHandler(async(req,res)=>{
     }
 
     const response=await detectImagewithGoogleCloudVision(image)
-    return res
-    .status(200)
-    .json(new ApiResponse(200,{response},"Image uploaded success"))
-
-
-})
+    const score= calculateSustainabilityScore(response)
+    const newReportData = {
+        userId: user._id,
+        image: image.url,
+        materialsImpact: [response],
+        sustainabilityScore: score,
+        recommendations: ['Use more renewable materials', 'Reduce water usage']
+      };
+  
+      const report = new Report(newReportData);
+      const savedReport = await report.save();
+      return res
+      .status(200)
+      .json(new ApiResponse(200,{savedReport},"Report generated successfully"))
+    } 
+)
 export {getReportsByUser,scanNewProduct}
