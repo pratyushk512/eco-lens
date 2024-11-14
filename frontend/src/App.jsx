@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Consumer from './pages/consumer.jsx';
 import AuthPage from './pages/login';
 import Role from './pages/rewards-role.jsx';
+import Qr from './pages/qr.jsx';
 function App() {
   const router = createBrowserRouter([
     {
@@ -30,8 +31,8 @@ function App() {
       element: <Role />
     },
     {
-      path:"/rewards/brands",
-      element: <div>Brands Page</div>
+      path: "rewards/brands",
+      element: <Qr/>
     },
     {
       path:"/rewards/consumer",
