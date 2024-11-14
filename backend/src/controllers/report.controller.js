@@ -1,7 +1,10 @@
-import { User } from "../models/user.model";
-import { ApiError } from "../utils/ApiError";
-import { ApiResponse } from "../utils/ApiResponse";
-import { asyncHandler } from "../utils/asyncHandler";
+import { Report } from "../models/report.model.js";
+import { User } from "../models/user.model.js";
+import { ApiError } from "../utils/ApiError.js";
+import { ApiResponse } from "../utils/ApiResponse.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
+import {uploadOnCloudinary} from "../utils/cloudinary.js"
+import detectImagewithGoogleCloudVision from "../utils/detectImageWithCloudVision.js";
 
 const getReportsByUser= asyncHandler(async(req,res)=>{
     const user= await User.findById(req.user._id);
@@ -32,10 +35,14 @@ const scanNewProduct= asyncHandler(async(req,res)=>{
     console.log(req.files)
     const image= await uploadOnCloudinary(imageLocalFilePath);
     if(!image){
-        throw new ApiError(400,"Avatar file is required")
+        throw new ApiError(400,"Image file is required")
     }
 
-    
+    const response=await detectImagewithGoogleCloudVision(image)
+    return res
+    .status(200)
+    .json(new ApiResponse(200,{response},"Image uploaded success"))
+
 
 })
-export {getReportsByUser}
+export {getReportsByUser,scanNewProduct}
