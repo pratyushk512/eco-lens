@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Progress } from "@/components/ui/progress"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-
+import Navbar5 from '@/components/Navbar5'
 export default function Consumer() {
   const [progress, setProgress] = useState(0)
   const [level, setLevel] = useState(0)
@@ -19,7 +19,8 @@ export default function Consumer() {
     }
   }
 
-  return (
+  return (<> 
+  <Navbar5/>
     <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold mb-4 text-center">Level Progress</h2>
       <div className="mb-4">
@@ -44,5 +45,6 @@ export default function Consumer() {
         </Button>
       </div>
     </div>
+    </>
   )
 }

@@ -16,18 +16,18 @@ const NavItem = ({ to, icon: Icon, label, isActive }) => (
   </Link>
 )
 
-export default function Navbar2() {
+export default function Navbar3() {
   const [isOpen, setIsOpen] = useState(false)
   const location = useLocation()
 
   const navItems = [
     { to: '/Landing', label: 'Home', icon: Home },
+    { to: '/scanProduct', label: 'Scan Products', icon: ClipboardList },
     { to: '/pastScans', label: 'Previous Scanned Products', icon: ClipboardList },
-    { to: '/rewards', label: 'Rewards', icon: Gift },
   ]
 
   return (
-    <nav className="bg-background shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">

@@ -21,7 +21,7 @@ export default function Navbar() {
   const location = useLocation()
 
   const navItems = [
-    { to: '/', label: 'Home', icon: Home },
+    { to: '/Landing', label: 'Home', icon: Home },
     { to: '/scanProduct', label: 'Scan Products', icon: ClipboardList },
     { to: '/rewards', label: 'Rewards', icon: Gift },
   ]

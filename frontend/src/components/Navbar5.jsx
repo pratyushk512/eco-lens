@@ -16,12 +16,13 @@ const NavItem = ({ to, icon: Icon, label, isActive }) => (
   </Link>
 )
 
-export default function Navbar2() {
+export default function Navbar5() {
   const [isOpen, setIsOpen] = useState(false)
   const location = useLocation()
 
   const navItems = [
     { to: '/Landing', label: 'Home', icon: Home },
+    { to: '/scanProduct', label: 'Scan Products', icon: ClipboardList },
     { to: '/pastScans', label: 'Previous Scanned Products', icon: ClipboardList },
     { to: '/rewards', label: 'Rewards', icon: Gift },
   ]
