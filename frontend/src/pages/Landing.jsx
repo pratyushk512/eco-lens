@@ -17,7 +17,7 @@ function Landing() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/previous" className={({ isActive }) => isActive ? "underline" : ""}>
+                <NavLink to="/reports" className={({ isActive }) => isActive ? "underline" : ""}>
                   Previous Scans
                 </NavLink>
               </li>
@@ -29,9 +29,6 @@ function Landing() {
             </ul>
           </nav>
         </header>
-        {/* <footer className="bg-gray-100 text-center py-4">
-          <p>&copy; 2024 ScanRewards. All rights reserved.</p>
-        </footer> */}
       </div>
     </div>
   );

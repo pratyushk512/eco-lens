@@ -9,7 +9,7 @@ function Role() {
       <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 p-4">
         <h1 className="text-3xl font-bold mb-8 text-center">Welcome! Choose your role:</h1>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link to="/business-partner">
+          <Link to="/rewards/brands">
             <Button className="w-48 h-16 text-lg">
               Business Partner
             </Button>
