@@ -24,12 +24,10 @@ export default function AuthPage() {
       return;
     }
 
-    // Here you would typically call your authentication API
+    //  authentication API
     const isAuthenticated = email === 'user@example.com' && password === 'password123';
     if (isAuthenticated) {
       console.log(isLogin ? 'Logging in...' : 'Signing up...', { email, password, name });
-
-      // Redirect to the dashboard on successful login
       navigate('/Landing');
     } else {
       setError('Invalid credentials');
