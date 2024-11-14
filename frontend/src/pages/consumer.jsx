@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useCallback } from 'react';
 import { QrReader } from 'react-qr-reader'; 
 import { Button } from "@/components/ui/button";
@@ -9,6 +10,27 @@ const checkDatabase = async (data) => {
   await new Promise(resolve => setTimeout(resolve, 1000)); 
   if (data === 'valid_qr_code') {
     return { exists: true, details: 'Product: Widget X, Quantity: 100' };
+=======
+import { useState } from 'react'
+import { Progress } from "@/components/ui/progress"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+import Navbar5 from '@/components/Navbar5'
+export default function Consumer() {
+  const [progress, setProgress] = useState(0)
+  const [level, setLevel] = useState(0)
+  const [couponCode, setCouponCode] = useState('')
+
+  const handleCouponSubmit = () => {
+    
+    console.log('Coupon submitted:', couponCode)
+    
+    setProgress(prev => Math.min(prev + 25, 100))
+    if (progress + 10 >= 100) {
+      setLevel(prev => prev + 1)
+      setProgress(0)
+    }
+>>>>>>> 1c3127cb49cac9a3a376aa819127b5175228b518
   }
   return { exists: false };
 };
@@ -45,6 +67,7 @@ export default function QRCodeScanner() {
     }
   };
 
+<<<<<<< HEAD
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
@@ -113,3 +136,34 @@ export default function QRCodeScanner() {
     </Card>
   );
 }
+=======
+  return (<> 
+  <Navbar5/>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+      <h2 className="text-2xl font-bold mb-4 text-center">Level Progress</h2>
+      <div className="mb-4">
+        <Progress value={progress} className="w-full" />
+      </div>
+      <p className="text-center mb-6 text-lg font-semibold">
+        Current Level: {level}
+      </p>
+      <div className="space-y-4">
+        <Input
+          type="text"
+          placeholder="Enter coupon code"
+          value={couponCode}
+          onChange={(e) => setCouponCode(e.target.value)}
+          className="w-full"
+        />
+        <Button 
+          onClick={handleCouponSubmit} 
+          className="w-full"
+        >
+          Claim Coupon
+        </Button>
+      </div>
+    </div>
+    </>
+  )
+}
+>>>>>>> 1c3127cb49cac9a3a376aa819127b5175228b518
