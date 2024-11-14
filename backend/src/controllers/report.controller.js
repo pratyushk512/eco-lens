@@ -17,4 +17,25 @@ const getReportsByUser= asyncHandler(async(req,res)=>{
     .json(new ApiResponse(200,{reports},"List of products scanned fetched successfully"))
 })
 
+const scanNewProduct= asyncHandler(async(req,res)=>{
+    const user=await User.findById(req.user._id)
+    if(!user){
+        throw new ApiError(400,"User not authorised")
+    }
+    
+    const imageLocalFilePath=req.files?.image[0]?.path;
+
+
+    if(!imageLocalFilePath){
+        throw new ApiError(400,"Image is required")
+    }
+    console.log(req.files)
+    const image= await uploadOnCloudinary(imageLocalFilePath);
+    if(!image){
+        throw new ApiError(400,"Avatar file is required")
+    }
+
+    
+
+})
 export {getReportsByUser}
