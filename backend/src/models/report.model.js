@@ -4,6 +4,11 @@ const reportSchema=new Schema(
         reportId:{
             type:String
         },
+        userId:{
+            type:Schema.Types.ObjectId,
+            ref:"User",
+            required:true
+        },
         images:[],
         materialsImpact:[{
             carbonFootprint:{

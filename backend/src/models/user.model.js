@@ -32,12 +32,6 @@ const userSchema=new Schema(
         rewardPoints:{
             type:Number
         },
-        pastScans:[
-            {
-                reportId:String,
-                scanDate:Date
-            }
-        ],
         refreshToken:{
             type:String,
         }
