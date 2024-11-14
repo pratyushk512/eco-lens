@@ -6,7 +6,6 @@ import Role from './pages/rewards-role.jsx';
 import Landing from './pages/Landing';
 import Qr from './pages/qr.jsx';
 import Previousreports  from './pages/Previousreports.jsx';
-=======
 import FileUploader from './pages/scan-products.jsx';
 
 function App() {
