@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "../components/ui/card";
 import { Button } from "../components/ui/button";
+import Navbar from '@/components/Navbar';
 import {
   Dialog,
   DialogContent,
@@ -28,8 +29,8 @@ const PreviousScansPage = () => {
     fetchScans();
   }, []);
 
-  return (
-    <div className="space-y-6">
+  return (<><Navbar/>
+    <div className="mt-9 space-y-6">
       <h1 className="text-3xl font-bold">Previous Scanned Products</h1>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {previousScans.map((scan) => (
@@ -70,6 +71,7 @@ const PreviousScansPage = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
