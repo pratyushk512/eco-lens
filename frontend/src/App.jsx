@@ -1,5 +1,6 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Consumer from './pages/consumer.jsx';
 
 function App() {
   const router = createBrowserRouter([
@@ -37,7 +38,7 @@ function App() {
     },
     {
       path:"/rewards/consumer",
-      element: <div>Consumer Page</div>
+      element: <Consumer/>
     },
   ]);
 
