@@ -41,10 +41,13 @@ export default async function detectImagewithGoogleCloudVision(image) {
     let ans = [];
     detectedLabels.forEach((label) => {
   if (data[label]) {
+    console.log(data[label])
     ans.push(data[label]);
   }
 });
-console.log(ans)
+
+
+    console.log(ans)
     return ans;
   }
   
