@@ -5,8 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, Camera, Upload } from 'lucide-react';
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import Navbar2 from '@/components/Navbar2';
+
 export default function ScanProduct() {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
@@ -120,8 +120,9 @@ export default function ScanProduct() {
     }
   }, [cameraReady]);
 
-  return (
-    <Card className="w-full max-w-md mx-auto">
+  return (<>
+  <Navbar2/>
+    <Card className="w-full max-w-md mx-auto mt-9">
       <CardHeader>
         <CardTitle>Scan Product</CardTitle>
       </CardHeader>
@@ -173,5 +174,6 @@ export default function ScanProduct() {
         </Button>
       </CardFooter>
     </Card>
+    </>
   );
 }

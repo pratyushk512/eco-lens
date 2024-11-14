@@ -4,52 +4,54 @@ import Consumer from './pages/consumer.jsx';
 import Role from './pages/rewards-role.jsx';
 import Landing from './pages/Landing';
 import Qr from './pages/qr.jsx';
-import Previousreports  from './pages/Previousreports.jsx';
+import Previousreports from './pages/Previousreports.jsx';
 import Login from './pages/login';
 import SignUp from './pages/signup';
 import ScanProduct from './pages/scan-products';
 import Report from './pages/report.jsx';
+import Home from './pages/home.jsx';
+
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <>Home</>,
+      element: <Home />,
     },
     {
       path: "/login",
-      element: <Login/>,
+      element: <Login />,
     },
     {
       path: "/signup",
-      element: <SignUp/>,
+      element: <SignUp />,
     },
     {
-      path:"/reports",
-      element: <Report/>
+      path: "/reports",
+      element: <Report />
     },
     {
-      path:"/scanProduct",
-      element: <ScanProduct/>
+      path: "/scanProduct",
+      element: <ScanProduct />
     },
     {
-      path:"/pastScans",
-      element: <Previousreports/>
+      path: "/pastScans",
+      element: <Previousreports />
     },
     {
-      path:"/rewards",
+      path: "/rewards",
       element: <Role />
     },
     {
       path: "rewards/brands",
-      element: <Qr/>
+      element: <Qr />
     },
     {
-      path:"/rewards/consumer",
-      element: <Consumer/>
+      path: "/rewards/consumer",
+      element: <Consumer />
     },
     {
-      path:"/Landing",
-      element: <Landing/>
+      path: "/Landing",
+      element: <Landing />
     }
   ]);
 

@@ -5,7 +5,7 @@ import QRCode from 'qrcode'
 import JSZip from 'jszip'
 import { saveAs } from 'file-saver'
 import { Loader2 } from 'lucide-react'
-
+import Navbar4 from '@/components/Navbar4'
 export default function QRCodeGenerator() {
   const [count, setCount] = useState('')
   const [isGenerating, setIsGenerating] = useState(false)
@@ -68,8 +68,9 @@ export default function QRCodeGenerator() {
     }
   }
 
-  return (
-    <div className="container mx-auto p-4">
+  return (<>
+  <Navbar4/>
+      <div className="container mx-auto p-4 mt-9">
       <div className="w-full max-w-md mx-auto bg-white shadow-md rounded-lg p-6">
         <h2 className="text-2xl font-bold mb-2">QR Code Generator</h2>
         <p className="text-gray-600 mb-4">Generate multiple QR codes and download as ZIP</p>
@@ -103,5 +104,6 @@ export default function QRCodeGenerator() {
         </div>
       </div>
     </div>
+    </>
   )
 }
