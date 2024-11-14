@@ -9,16 +9,16 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../components/ui/dialog";
+import { getPastScans } from '@/services/api';
 
 const PreviousScansPage = () => {
   const [previousScans, setPreviousScans] = useState([]);
 
-  //Database sefetch karo previous scans product karne ke baad
   useEffect(() => {
     const fetchScans = async () => {
       try {
-        const response = await fetch('/ENDPOINT DAALO API KA'); 
-        const data = await response.json();
+        const response = await getPastScans()
+        const data = response.data
         setPreviousScans(data);
       } catch (error) {
         console.error("Error fetching previous scans:", error);
@@ -35,7 +35,7 @@ const PreviousScansPage = () => {
         {previousScans.map((scan) => (
           <Card key={scan.id}>
             <CardHeader>
-              <CardTitle>{scan.name}</CardTitle>
+              <CardTitle>{scan._id}</CardTitle>
             </CardHeader>
             <CardContent>
               <img src={scan.image} alt={`${scan.name} image`} className="w-full h-40 object-cover mb-4" />
@@ -43,7 +43,7 @@ const PreviousScansPage = () => {
               <p>Points: {scan.points}</p>
               <p>Recommendations: {scan.recommendations}</p>
               <p>Sustainability Score: {scan.sustainabilityScore}</p>
-              <p>Material Impact: {scan.materialImpact}</p>
+              <p>Material Impact: {scan.materialsImpact}</p>
             </CardContent>
             <CardFooter>
               <Dialog>

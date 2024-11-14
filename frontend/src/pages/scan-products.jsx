@@ -5,7 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, Camera, Upload } from 'lucide-react';
-
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 export default function ScanProduct() {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
@@ -14,7 +15,7 @@ export default function ScanProduct() {
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
   const { toast } = useToast();
-
+  const navigate=useNavigate()
   
   const handleFileChange = (event) => {
     const selectedFile = event.target.files?.[0];
@@ -57,7 +58,6 @@ export default function ScanProduct() {
     const imageData = canvas.toDataURL('image/png');
     setPreview(imageData);
 
-    
     video.srcObject.getTracks().forEach(track => track.stop());
     setCameraReady(false); 
   };
@@ -72,34 +72,36 @@ export default function ScanProduct() {
       });
       return;
     }
-
+  
     setIsUploading(true);
     const formData = new FormData();
-
+  
     if (file) {
-      formData.append('file', file);
+      formData.append('image', file); 
     } else {
       const response = await fetch(preview);
       const blob = await response.blob();
-      formData.append('file', blob, 'photo.png');
+      formData.append('image', blob, 'image.jpg'); 
     }
-
+  
     try {
-      const response = await fetch('http://localhost:5000/upload', {
+      const response = await fetch('http://localhost:8000/api/v1/reports/scanNewProduct', {
         method: 'POST',
         body: formData,
+        credentials: 'include',
       });
-
+  
       if (!response.ok) {
         throw new Error('Upload failed');
       }
-
+  
       const data = await response.json();
       toast({
         title: "Upload Successful",
         description: "Your file has been uploaded successfully.",
       });
       console.log('File uploaded successfully:', data);
+      navigate("/reports",data)
     } catch (error) {
       toast({
         title: "Upload Failed",
@@ -111,6 +113,7 @@ export default function ScanProduct() {
       setIsUploading(false);
     }
   };
+  
 
   useEffect(() => {
     if (cameraReady) {

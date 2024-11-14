@@ -6,7 +6,7 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 import {uploadOnCloudinary} from "../utils/cloudinary.js"
 import detectImagewithGoogleCloudVision from "../utils/detectImageWithCloudVision.js";
 import { calculateSustainabilityScore } from "../utils/sustainabilityScore.js";
-
+import { GoogleGenerativeAI } from "@google/generative-ai";
 const getReportsByUser= asyncHandler(async(req,res)=>{
     const user= await User.findById(req.user._id);
     if(!user){
@@ -51,9 +51,18 @@ const scanNewProduct= asyncHandler(async(req,res)=>{
   
       const report = new Report(newReportData);
       const savedReport = await report.save();
+
+
+      const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      
+      const prompt = `Generate a report based on the following data from the product scanned and parsed through Google Cloud Vision ${savedReport}. Provide alternative recommendations as well`
+
+      const result = await model.generateContent(prompt);
+      const data=result.response.text()
       return res
       .status(200)
-      .json(new ApiResponse(200,{savedReport},"Report generated successfully"))
+      .json(new ApiResponse(200,{data},"Report generated successfully"))
     } 
 )
 export {getReportsByUser,scanNewProduct}

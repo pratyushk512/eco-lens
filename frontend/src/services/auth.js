@@ -20,8 +20,3 @@ export const logoutUser= async ()=>{
   const response= await api.post('users/logoutUser')
   return response.data.data
 }
-
-export const scanNewProduct= async ()=>{
-    const response=await api.post('reports/scanNewProduct',{image})
-    return 
-}

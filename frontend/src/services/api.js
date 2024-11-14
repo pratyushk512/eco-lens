@@ -17,3 +17,4 @@ export const signup = ({
     "password":password,
   });
 
+export const getPastScans=()=>api.post("/reports/getPastScans")
