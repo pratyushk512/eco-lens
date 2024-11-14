@@ -6,7 +6,6 @@ const api = axios.create({
 });
 
 export const loginUser = async (email, password) => {
-
   const response = await api.post('users/login', { "email":email, "password":password });
   //console.log(response.data.data.user)
   return response.data.data.user;
@@ -20,4 +19,9 @@ export const refreshAccessToken = async () => {
 export const logoutUser= async ()=>{
   const response= await api.post('users/logoutUser')
   return response.data.data
+}
+
+export const scanNewProduct= async ()=>{
+    const response=await api.post('reports/scanNewProduct',{image})
+    return 
 }
