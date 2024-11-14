@@ -4,6 +4,8 @@ import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import {uploadOnCloudinary} from "../utils/cloudinary.js"
+import detectImagewithGoogleCloudVision from "../utils/detectImageWithCloudVision.js";
+
 const getReportsByUser= asyncHandler(async(req,res)=>{
     const user= await User.findById(req.user._id);
     if(!user){
@@ -36,11 +38,11 @@ const scanNewProduct= asyncHandler(async(req,res)=>{
         throw new ApiError(400,"Image file is required")
     }
 
-    // return res
-    // .status(200)
-    // .json(new ApiResponse(200,{image},"Image uploaded success"))
+    const response=await detectImagewithGoogleCloudVision(image)
+    return res
+    .status(200)
+    .json(new ApiResponse(200,{response},"Image uploaded success"))
 
-    
 
 })
 export {getReportsByUser,scanNewProduct}

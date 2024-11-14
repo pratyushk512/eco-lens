@@ -9,7 +9,9 @@ const reportSchema=new Schema(
             ref:"User",
             required:true
         },
-        images:[],
+        image:{
+            type:String
+        },
         materialsImpact:[{
             carbonFootprint:{
                 type:String,
