@@ -1,9 +1,6 @@
 import mongoose,{Schema} from "mongoose";
 const reportSchema=new Schema(
     {
-        reportId:{
-            type:String
-        },
         userId:{
             type:Schema.Types.ObjectId,
             ref:"User",
