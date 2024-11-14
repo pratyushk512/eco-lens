@@ -21,7 +21,7 @@ const NavCard = ({ to, label, icon: Icon }) => (
 
 function Landing() {
   const navItems = [
-    { to: "/", label: "Home", icon: Home },
+    { to: "/Home", label: "Home", icon: Home },
     { to: "/scanProduct", label: "Scan Product", icon: ScanLine },
     { to: "/pastScans", label: "Previous Scans", icon: Clock },
     { to: "/rewards", label: "Rewards", icon: Gift },

@@ -12,8 +12,8 @@ import Report from './pages/report.jsx';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
-      element: <>Home</>,
+      path: "/Home",
+      element: <Home/>,
     },
     {
       path: "/login",
