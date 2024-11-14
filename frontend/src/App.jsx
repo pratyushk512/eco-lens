@@ -6,6 +6,7 @@ import Role from './pages/rewards-role.jsx';
 import Landing from './pages/Landing';
 import Qr from './pages/qr.jsx';
 import Previousreports  from './pages/Previousreports.jsx';
+=======
 import FileUploader from './pages/scan-products.jsx';
 
 function App() {
@@ -24,15 +25,15 @@ function App() {
     },
     {
       path:"/reports",
-      element: <Previousreports/>
+      element: <>Latest generated report</>
     },
     {
       path:"/scanProduct",
-      element: <FileUploader/>
+      element: <ScanProduct/>
     },
     {
       path:"/pastScans",
-      element: <div>Past Scanned Product</div>
+      element: <Previousreports/>
     },
     {
       path:"/rewards",
