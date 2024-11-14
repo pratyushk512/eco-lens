@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Consumer from './pages/consumer.jsx';
 import AuthPage from './pages/login';
 import Role from './pages/rewards-role.jsx';
+import Landing from './pages/Landing';
 function App() {
   const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ function App() {
       path:"/rewards/consumer",
       element: <Consumer/>
     },
+    {
+      path:"/Landing",
+      element: <Landing/>
+    }
   ]);
 
   return (
