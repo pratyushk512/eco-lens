@@ -6,7 +6,7 @@ import Role from './pages/rewards-role.jsx';
 import Landing from './pages/Landing';
 import Qr from './pages/qr.jsx';
 import Previousreports  from './pages/Previousreports.jsx';
-import ScanProduct from './pages/scan-products.jsx';
+import FileUploader from './pages/scan-products.jsx';
 
 function App() {
   const router = createBrowserRouter([
@@ -15,8 +15,12 @@ function App() {
       element: <>Home</>,
     },
     {
-      path: "/auth",
-      element: <AuthPage/>,
+      path: "/login",
+      element: <Login/>,
+    },
+    {
+      path: "/signup",
+      element: <SignUp/>,
     },
     {
       path:"/reports",

@@ -10,71 +10,72 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { signup } from "@/services/api";
 import { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
-import { login } from "@/services/api";
-import Landing from "./Landing";
-
-export default function LoginPage() {
+import { useNavigate } from "react-router-dom";
+export default function SignUpPage() {
+  const [fullName, setFullName] = useState("");
+  const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const handleSubmit = async () => {
-    const response = await login({ email, password });
+    const response = await signup({ fullName, username, email, password });
     console.log(response.data.data);
     setEmail("");
     setPassword("");
-    navigate(to, "/Landing");
+    setFullName("")
+    setUsername("")
+    navigate(to, "/login");
   };
-
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
-            Login
+            Sign Up
           </CardTitle>
           <CardDescription className="text-center">
-            Enter your credentials to access your account
+            Create your account to get started
           </CardDescription>
         </CardHeader>
         <CardContent>
           <form>
             <div className="space-y-4">
               <div className="space-y-2">
+                <Label htmlFor="fullName">Full Name</Label>
+                <Input id="fullName" placeholder="John Doe" required onChange={(e)=>{setFullName(e.target.value)}}/>
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="username">Username</Label>
+                <Input id="username" placeholder="johndoe" required onChange={(e)=>{setUsername(e.target.value)}}/>
+              </div>
+              <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
                 <Input
                   id="email"
                   type="email"
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                  }}
+                  placeholder="m@example.com"
                   required
+                  onChange={(e)=>{setEmail(e.target.value)}}
                 />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password">Password</Label>
-                <Input
-                  id="password"
-                  type="password"
-                  required
-                  onChange={(e) => {
-                    setPassword(e.target.value);
-                  }}
-                />
+                <Input id="password" type="password" required onChange={(e)=>{setPassword(e.target.value)}}/>
               </div>
             </div>
           </form>
         </CardContent>
         <CardFooter className="flex flex-col space-y-4">
           <Button className="w-full" type="submit" onClick={handleSubmit}>
-            Log in
+            Sign Up
           </Button>
           <p className="text-sm text-center text-gray-600">
-            Don't have an account?{" "}
-            <NavLink to="/signup" className="text-blue-600 hover:underline">
-              Sign up
-            </NavLink>
+            Already have an account?{" "}
+            <Link href="/login" className="text-blue-600 hover:underline">
+              Log in
+            </Link>
           </p>
         </CardFooter>
       </Card>
