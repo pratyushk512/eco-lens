@@ -5,7 +5,12 @@ import AuthPage from './pages/login';
 import Role from './pages/rewards-role.jsx';
 import Landing from './pages/Landing';
 import Qr from './pages/qr.jsx';
+<<<<<<< HEAD
 import Previousreports  from './pages/Previousreports.jsx';
+=======
+import FileUploader from './pages/scan-products.jsx';
+
+>>>>>>> 31c18ecffc4c8ca659f392822c17683c45a1123d
 function App() {
   const router = createBrowserRouter([
     {
@@ -22,7 +27,7 @@ function App() {
     },
     {
       path:"/scanProduct",
-      element: <div>Scan Product</div>
+      element: <FileUploader/>
     },
     {
       path:"/pastScans",
