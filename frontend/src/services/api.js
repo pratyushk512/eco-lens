@@ -11,16 +11,9 @@ export const signup = ({
   password,
 }) =>
   api.post("/users/register", {
-    fullName,
-    username,
-    email,
-    password,
+    "fullName":fullName,
+    "username":username,
+    "email":email,
+    "password":password,
   });
 
-export const login = ({
-    email,
-    password
-})=>api.post("users/login",{
-    email,
-    password
-})

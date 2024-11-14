@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -13,7 +12,8 @@ import {
 import { signup } from "@/services/api";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-export default function SignUpPage() {
+import { NavLink } from "react-router-dom";
+export default function SignUp() {
   const [fullName, setFullName] = useState("");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -21,12 +21,12 @@ export default function SignUpPage() {
   const navigate = useNavigate();
   const handleSubmit = async () => {
     const response = await signup({ fullName, username, email, password });
-    console.log(response.data.data);
+    //console.log(response.data.data);
     setEmail("");
     setPassword("");
     setFullName("")
     setUsername("")
-    navigate(to, "/login");
+    navigate("/login");
   };
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
@@ -44,18 +44,17 @@ export default function SignUpPage() {
             <div className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="fullName">Full Name</Label>
-                <Input id="fullName" placeholder="John Doe" required onChange={(e)=>{setFullName(e.target.value)}}/>
+                <Input id="fullName"  required onChange={(e)=>{setFullName(e.target.value)}}/>
               </div>
               <div className="space-y-2">
                 <Label htmlFor="username">Username</Label>
-                <Input id="username" placeholder="johndoe" required onChange={(e)=>{setUsername(e.target.value)}}/>
+                <Input id="username"  required onChange={(e)=>{setUsername(e.target.value)}}/>
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
                   required
                   onChange={(e)=>{setEmail(e.target.value)}}
                 />
@@ -73,9 +72,9 @@ export default function SignUpPage() {
           </Button>
           <p className="text-sm text-center text-gray-600">
             Already have an account?{" "}
-            <Link href="/login" className="text-blue-600 hover:underline">
+            <NavLink to="/login" className="text-blue-600 hover:underline">
               Log in
-            </Link>
+            </NavLink>
           </p>
         </CardFooter>
       </Card>

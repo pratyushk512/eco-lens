@@ -1,13 +1,14 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Consumer from './pages/consumer.jsx';
-import AuthPage from './pages/login';
 import Role from './pages/rewards-role.jsx';
 import Landing from './pages/Landing';
 import Qr from './pages/qr.jsx';
 import Previousreports  from './pages/Previousreports.jsx';
-import FileUploader from './pages/scan-products.jsx';
-
+import Login from './pages/login';
+import SignUp from './pages/signup';
+import ScanProduct from './pages/scan-products';
+import Report from './pages/report.jsx';
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,7 +25,7 @@ function App() {
     },
     {
       path:"/reports",
-      element: <>Latest generated report</>
+      element: <Report/>
     },
     {
       path:"/scanProduct",

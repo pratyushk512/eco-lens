@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -12,19 +11,18 @@ import {
 } from "@/components/ui/card";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { login } from "@/services/api";
+import { loginUser } from "@/services/auth.js";
 import Landing from "./Landing";
 
-export default function LoginPage() {
+export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const handleSubmit = async () => {
-    const response = await login({ email, password });
-    console.log(response.data.data);
+    const response = await loginUser(email,password);
     setEmail("");
     setPassword("");
-    navigate(to, "/Landing");
+    navigate("/Landing");
   };
 
   return (
