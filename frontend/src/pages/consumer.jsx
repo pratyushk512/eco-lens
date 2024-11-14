@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Loader2, CheckCircle2, XCircle } from 'lucide-react';
-
+import Navbar4 from '@/components/Navbar4';
 const checkDatabase = async (data) => {
   await new Promise(resolve => setTimeout(resolve, 1000)); 
   if (data === 'valid_qr_code') {
@@ -45,8 +45,9 @@ export default function QRCodeScanner() {
     }
   };
 
-  return (
-    <Card className="w-full max-w-md mx-auto">
+  return (<>
+  <Navbar4/>
+    <Card className="w-full max-w-md mx-auto mt-9">
       <CardHeader>
         <CardTitle>Claim Your Reward!</CardTitle>
         <CardDescription>Find your rewarding QR Code inside the pack</CardDescription>
@@ -111,5 +112,6 @@ export default function QRCodeScanner() {
         )}
       </CardFooter>
     </Card>
+    </>
   );
 }
