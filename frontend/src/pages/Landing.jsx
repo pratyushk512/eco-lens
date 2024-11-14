@@ -17,7 +17,12 @@ function Landing() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/reports" className={({ isActive }) => isActive ? "underline" : ""}>
+                <NavLink to="/scanProduct" className={({ isActive }) => isActive ? "underline" : ""}>
+                  Scan Product
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/pastScans" className={({ isActive }) => isActive ? "underline" : ""}>
                   Previous Scans
                 </NavLink>
               </li>
