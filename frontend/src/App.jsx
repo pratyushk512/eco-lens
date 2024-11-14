@@ -8,6 +8,7 @@ import Previousreports  from './pages/Previousreports.jsx';
 import Login from './pages/login';
 import SignUp from './pages/signup';
 import ScanProduct from './pages/scan-products';
+import Report from './pages/report.jsx';
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,7 +25,7 @@ function App() {
     },
     {
       path:"/reports",
-      element: <>Latest generated report</>
+      element: <Report/>
     },
     {
       path:"/scanProduct",
