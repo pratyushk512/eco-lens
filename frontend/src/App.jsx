@@ -3,11 +3,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Consumer from './pages/consumer.jsx';
 import AuthPage from './pages/login';
 import Role from './pages/rewards-role.jsx';
-<<<<<<< HEAD
 import Landing from './pages/Landing';
-=======
 import Qr from './pages/qr.jsx';
->>>>>>> b136feb0e4c31e876da406ee6d94d32742a333f4
+import FileUploader from './pages/scan-products.jsx';
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,7 +23,7 @@ function App() {
     },
     {
       path:"/scanProduct",
-      element: <div>Scan Product</div>
+      element: <FileUploader/>
     },
     {
       path:"/pastScans",
