@@ -1,7 +1,8 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Consumer from './pages/consumer.jsx';
-
+import AuthPage from './pages/login';
+import Role from './pages/rewards-role.jsx';
 function App() {
   const router = createBrowserRouter([
     {
@@ -9,12 +10,8 @@ function App() {
       element: <>Home</>,
     },
     {
-      path: "/login",
-      element: <div>Login</div>,
-    },
-    {
-      path: "/signup",
-      element: <div>Sign up</div>, 
+      path: "/auth",
+      element: <AuthPage/>,
     },
     {
       path:"/report",
@@ -30,7 +27,7 @@ function App() {
     },
     {
       path:"/rewards",
-      element: <div>Rewards Home</div>
+      element: <Role />
     },
     {
       path:"/rewards/brands",
