@@ -35,7 +35,7 @@ of using Generative AI to improve productivity and decisionmaking.
 
 - Frontend: React, TailwindCSS, Shadcn/UI
 - Backend: Node.js with Express.js
-- Database: MongoDB
+- Database: MongoDB, Cloudinary
 - APIs: **Google Cloud Vision API** for product analysis, **Gemini API** for report generation.
 
 
