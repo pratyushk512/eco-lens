@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, Camera, Upload } from 'lucide-react';
 import Navbar2 from '@/components/Navbar2';
-
+import { useNavigate } from 'react-router-dom';
 export default function ScanProduct() {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
