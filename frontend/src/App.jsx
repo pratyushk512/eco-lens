@@ -10,6 +10,7 @@ import SignUp from './pages/signup';
 import ScanProduct from './pages/scan-products';
 import Report from './pages/report.jsx';
 import Home from './pages/home.jsx';
+import Market from './pages/market.jsx';
 
 function App() {
   const router = createBrowserRouter([
@@ -52,6 +53,10 @@ function App() {
     {
       path: "/Landing",
       element: <Landing />
+    },
+    {
+      path: "/market",
+      element: <Market />
     }
   ]);
 
