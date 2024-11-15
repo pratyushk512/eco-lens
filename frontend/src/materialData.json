@@ -923,10 +923,7 @@
       "waterusage": "250 liters/unit",
       "recyclable": true,
       "renewable": false
-    }
-  }
-  
-  
+    },
     "dish soap": {
       "carbonFootprint": "0.7 kg CO2e/unit",
       "waterUsage": "100 liters/unit",
@@ -1461,10 +1458,6 @@
       "recyclable": true,
       "renewable": true
     },
-    "glass display cabinet": {
-     
-  
-
   "lED tV": {
     "carbonFootprint": "150 kg CO2e/unit",
     "waterUsage": "30000 liters/unit",
