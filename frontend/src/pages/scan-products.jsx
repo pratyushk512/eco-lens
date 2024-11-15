@@ -101,7 +101,7 @@ export default function ScanProduct() {
         description: "Your file has been uploaded successfully.",
       });
       console.log('File uploaded successfully:', data);
-      navigate("/reports",data)
+      navigate('/reports', { state: { data} });
     } catch (error) {
       toast({
         title: "Upload Failed",
