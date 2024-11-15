@@ -14,7 +14,7 @@ const getReportsByUser= asyncHandler(async(req,res)=>{
     }
     const reports=await Report.find({userId: user._id})
     if(!reports){
-        throw new ApiError("No reports found")
+        throw new ApiError(404,"No reports found")
     }
     return res
     .status(200)

@@ -10,7 +10,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../components/ui/dialog";
-import { getPastScans } from '@/services/api';
+import { getPastScans } from '@/services/auth.js';
+import { data } from 'autoprefixer';
 
 const PreviousScansPage = () => {
   const [previousScans, setPreviousScans] = useState([]);
@@ -19,7 +20,8 @@ const PreviousScansPage = () => {
     const fetchScans = async () => {
       try {
         const response = await getPastScans()
-        const data = response.data
+        console.log(response.reports)
+        const data = response.reports
         setPreviousScans(data);
       } catch (error) {
         console.error("Error fetching previous scans:", error);
@@ -28,42 +30,31 @@ const PreviousScansPage = () => {
 
     fetchScans();
   }, []);
+  /*const handleReportClick=async (scan)=>{
+    const prompt = `Generate a report based on the following data from the product scanned and parsed through Google Cloud Vision ${scan.materialImpact}. Provide alternative recommendations as well. Dont give much of extra knowledge. The report should have a format.Provide a markdown file`
 
+      const result = await model.generateContent(prompt);
+      const data=result.response.text()
+      return data
+  }*/
   return (<><Navbar/>
     <div className="mt-9 space-y-6">
       <h1 className="text-3xl font-bold">Previous Scanned Products</h1>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {previousScans.map((scan) => (
-          <Card key={scan.id}>
+          <Card key={scan._id}>
             <CardHeader>
-              <CardTitle>{scan._id}</CardTitle>
+              <CardTitle>
+              <img src={scan.image} />
+              </CardTitle>
             </CardHeader>
-            <CardContent>
-              <img src={scan.image} alt={`${scan.name} image`} className="w-full h-40 object-cover mb-4" />
-              <p>Date: {scan.date}</p>
-              <p>Points: {scan.points}</p>
-              <p>Recommendations: {scan.recommendations}</p>
-              <p>Sustainability Score: {scan.sustainabilityScore}</p>
-              <p>Material Impact: {scan.materialsImpact}</p>
-            </CardContent>
             <CardFooter>
               <Dialog>
                 <DialogTrigger asChild>
                   <Button variant="outline">View Report</Button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
-                  <DialogHeader>
-                    <DialogTitle>{scan.name} Report</DialogTitle>
-                    <DialogDescription>Scan date: {scan.date}</DialogDescription>
-                  </DialogHeader>
-                  <div className="grid gap-4 py-4">
-                    <img src={scan.image} alt={`${scan.name} report image`} className="w-full h-40 object-cover" />
-                    <p>{scan.report}</p>
-                    <p className="font-semibold">Points earned: {scan.points}</p>
-                    <p>Recommendations: {scan.recommendations}</p>
-                    <p>Sustainability Score: {scan.sustainabilityScore}</p>
-                    <p>Material Impact: {scan.materialImpact}</p>
-                  </div>
+                  
                 </DialogContent>
               </Dialog>
             </CardFooter>
