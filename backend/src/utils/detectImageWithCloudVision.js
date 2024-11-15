@@ -47,9 +47,9 @@ detectedLabels.forEach((label) => {
   }
 });
 
-
-    console.log(ans)
+  console.log(ans)
     return ans;
+
   }
   
   

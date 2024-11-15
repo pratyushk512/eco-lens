@@ -56,7 +56,7 @@ const scanNewProduct= asyncHandler(async(req,res)=>{
       const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       
-      const prompt = `Generate a report based on the following data from the product scanned and parsed through Google Cloud Vision ${savedReport}. Provide alternative recommendations as well`
+      const prompt = `Generate a report based on the following data from the product scanned and parsed through Google Cloud Vision ${savedReport}. Provide alternative recommendations as well. Dont give much of extra knowledge. The report should have a format.Provide a markdown file`
 
       const result = await model.generateContent(prompt);
       const data=result.response.text()
