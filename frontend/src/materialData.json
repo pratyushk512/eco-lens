@@ -1,1745 +1,1692 @@
 {
-  "Cardboard": {
+  "cardboard": {
     "carbonFootprint": "0.8 kg CO2e/kg",
     "waterUsage": "1,300 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Wood": {
+  "wood": {
     "carbonFootprint": "1.5 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Soy": {
+  "soy": {
     "carbonFootprint": "3.0 kg CO2e/kg",
     "waterUsage": "2,200 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Beef": {
+  "beef": {
     "carbonFootprint": "30.0 kg CO2e/kg",
     "waterUsage": "15,000 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Chicken": {
+  "chicken": {
     "carbonFootprint": "6.0 kg CO2e/kg",
     "waterUsage": "4,000 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Rubber": {
+  "rubber": {
     "carbonFootprint": "2.0 kg CO2e/kg",
     "waterUsage": "3,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Steel": {
+  "steel": {
     "carbonFootprint": "2.0 kg CO2e/kg",
     "waterUsage": "1,800 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Copper": {
+  "copper": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Gold": {
+  "gold": {
     "carbonFootprint": "8.0 kg CO2e/kg",
     "waterUsage": "10,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Bamboo": {
+  "bamboo": {
     "carbonFootprint": "0.5 kg CO2e/kg",
     "waterUsage": "500 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Smartphone": {
+  "smartphone": {
     "carbonFootprint": "55.0 kg CO2e/unit",
     "waterUsage": "900 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Laptop": {
+  "laptop": {
     "carbonFootprint": "300.0 kg CO2e/unit",
     "waterUsage": "1,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Textile": {
+  "textile": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "8,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Fiberglass": {
+  "fiberglass": {
     "carbonFootprint": "2.0 kg CO2e/kg",
     "waterUsage": "2,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Styrofoam": {
+  "styrofoam": {
     "carbonFootprint": "2.5 kg CO2e/kg",
     "waterUsage": "500 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Teflon": {
+  "teflon": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "1,000 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Vinyl": {
+  "vinyl": {
     "carbonFootprint": "3.0 kg CO2e/kg",
     "waterUsage": "700 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "PVC": {
+  "pVC": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Nylon": {
+  "nylon": {
     "carbonFootprint": "6.0 kg CO2e/kg",
     "waterUsage": "2,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Plastic": {
+  "plastic": {
     "carbonFootprint": "6.0 kg CO2e/kg",
     "waterUsage": "1,200 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Glass": {
+  "glass": {
     "carbonFootprint": "1.0 kg CO2e/kg",
     "waterUsage": "500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Aluminum": {
+  "aluminum": {
     "carbonFootprint": "7.0 kg CO2e/kg",
     "waterUsage": "500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Paper": {
+  "paper": {
     "carbonFootprint": "1.0 kg CO2e/kg",
     "waterUsage": "1,200 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Cotton": {
+  "cotton": {
     "carbonFootprint": "2.5 kg CO2e/kg",
     "waterUsage": "10,000 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Wheat": {
+  "wheat": {
     "carbonFootprint": "0.5 kg CO2e/kg",
     "waterUsage": "1,800 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Rice": {
+  "rice": {
     "carbonFootprint": "4.0 kg CO2e/kg",
     "waterUsage": "3,000 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Copper Wire": {
+  "copper wire": {
     "carbonFootprint": "3.5 kg CO2e/kg",
     "waterUsage": "1,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Aluminum Wire": {
+  "aluminum wire": {
     "carbonFootprint": "4.0 kg CO2e/kg",
     "waterUsage": "1,200 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Silicon": {
+  "silicon": {
     "carbonFootprint": "9.0 kg CO2e/kg",
     "waterUsage": "2,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "LED": {
+  "lED": {
     "carbonFootprint": "10.0 kg CO2e/unit",
     "waterUsage": "1,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Smartphone Battery": {
+  "smartphone battery": {
     "carbonFootprint": "50.0 kg CO2e/unit",
     "waterUsage": "1,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Smartphone Display": {
+  "smartphone display": {
     "carbonFootprint": "20.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Laptop Battery": {
+  "laptop battery": {
     "carbonFootprint": "100.0 kg CO2e/unit",
     "waterUsage": "2,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Laptop Screen": {
+  "laptop screen": {
     "carbonFootprint": "30.0 kg CO2e/unit",
     "waterUsage": "800 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Television": {
+  "television": {
     "carbonFootprint": "150.0 kg CO2e/unit",
     "waterUsage": "3,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Washing Machine": {
+  "washing machine": {
     "carbonFootprint": "200.0 kg CO2e/unit",
     "waterUsage": "5,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Microwave": {
+  "microwave": {
     "carbonFootprint": "90.0 kg CO2e/unit",
     "waterUsage": "2,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Refrigerator": {
+  "refrigerator": {
     "carbonFootprint": "300.0 kg CO2e/unit",
     "waterUsage": "6,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Wires (PVC-coated)": {
+  "wires": {
     "carbonFootprint": "6.0 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Batteries (Lithium-ion)": {
+  "batteries (Lithium-ion)": {
     "carbonFootprint": "120.0 kg CO2e/unit",
     "waterUsage": "2,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Plastic Packaging": {
+  "plastic packaging": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Cardboard Packaging": {
+  "cardboard packaging": {
     "carbonFootprint": "0.8 kg CO2e/kg",
     "waterUsage": "1,000 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Paper Packaging": {
+  "paper packaging": {
     "carbonFootprint": "1.0 kg CO2e/kg",
     "waterUsage": "1,200 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Styrofoam Packaging": {
+  "styrofoam packaging": {
     "carbonFootprint": "2.5 kg CO2e/kg",
     "waterUsage": "500 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Metal Cans": {
+  "metal cans": {
     "carbonFootprint": "3.0 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Glass Packaging": {
+  "glass packaging": {
     "carbonFootprint": "1.0 kg CO2e/kg",
     "waterUsage": "500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Wood Furniture": {
+  "wood furniture": {
     "carbonFootprint": "10.0 kg CO2e/kg",
     "waterUsage": "1,500 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Plastic Furniture": {
+  "plastic furniture": {
     "carbonFootprint": "15.0 kg CO2e/kg",
     "waterUsage": "2,000 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Leather Furniture": {
+  "leather furniture": {
     "carbonFootprint": "30.0 kg CO2e/kg",
     "waterUsage": "2,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Fabric Furniture (Cotton)": {
+  "fabric furniture (cotton)": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "8,000 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Sofa Cushions": {
+  "sofa cushions": {
     "carbonFootprint": "25.0 kg CO2e/unit",
     "waterUsage": "3,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Wooden Chairs": {
+  "wooden chairs": {
     "carbonFootprint": "12.0 kg CO2e/unit",
     "waterUsage": "1,200 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Metal Chairs": {
+  "metal chairs": {
     "carbonFootprint": "18.0 kg CO2e/unit",
     "waterUsage": "1,800 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Plastic Chairs": {
+  "plastic chairs": {
     "carbonFootprint": "22.0 kg CO2e/unit",
     "waterUsage": "2,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Fabric Chairs (Cotton)": {
+  "fabric chairs (cotton)": {
     "carbonFootprint": "10.0 kg CO2e/unit",
     "waterUsage": "5,000 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Glass Table": {
+  "glass table": {
     "carbonFootprint": "35.0 kg CO2e/unit",
     "waterUsage": "1,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Plastic Table": {
+  "plastic table": {
     "carbonFootprint": "40.0 kg CO2e/unit",
     "waterUsage": "3,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Wooden Table": {
+  "wooden table": {
     "carbonFootprint": "20.0 kg CO2e/unit",
     "waterUsage": "2,000 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Metal Table": {
+  "metal table": {
     "carbonFootprint": "30.0 kg CO2e/unit",
     "waterUsage": "2,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Textile Packaging": {
+  "textile packaging": {
     "carbonFootprint": "2.0 kg CO2e/kg",
     "waterUsage": "2,500 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Cotton Bags": {
+  "cotton bags": {
     "carbonFootprint": "3.0 kg CO2e/kg",
     "waterUsage": "4,000 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Jute Bags": {
+  "jute bags": {
     "carbonFootprint": "1.0 kg CO2e/kg",
     "waterUsage": "1,200 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "Canvas Bags": {
+  "canvas bags": {
     "carbonFootprint": "5.0 kg CO2e/kg",
     "waterUsage": "3,000 liters/kg",
     "recyclable": true,
     "renewable": true
   },
-  "PET Plastic Bottles": {
+  "pET plastic bottles": {
     "carbonFootprint": "4.0 kg CO2e/unit",
     "waterUsage": "1,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Aluminum Cans": {
+  "aluminum cans": {
     "carbonFootprint": "3.5 kg CO2e/unit",
     "waterUsage": "1,200 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Tablet": {
+  "tablet": {
     "carbonFootprint": "70.0 kg CO2e/unit",
     "waterUsage": "1,800 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Smartwatch": {
+  "smartwatch": {
     "carbonFootprint": "20.0 kg CO2e/unit",
     "waterUsage": "600 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Desktop Computer": {
+  "desktop computer": {
     "carbonFootprint": "150.0 kg CO2e/unit",
     "waterUsage": "4,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Portable Speaker": {
+  "portable speaker": {
     "carbonFootprint": "30.0 kg CO2e/unit",
     "waterUsage": "700 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Headphones": {
+  "headphones": {
     "carbonFootprint": "10.0 kg CO2e/unit",
     "waterUsage": "200 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Power Bank": {
+  "power bank": {
     "carbonFootprint": "20.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Electric Toothbrush": {
+  "electric toothbrush": {
     "carbonFootprint": "5.0 kg CO2e/unit",
     "waterUsage": "100 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Office Chair": {
+  "office chair": {
     "carbonFootprint": "25.0 kg CO2e/unit",
     "waterUsage": "800 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Wooden Desk": {
+  "wooden desk": {
     "carbonFootprint": "50.0 kg CO2e/unit",
     "waterUsage": "1,500 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Wooden Bookshelf": {
+  "wooden bookshelf": {
     "carbonFootprint": "40.0 kg CO2e/unit",
     "waterUsage": "1,200 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Metal Filing Cabinet": {
+  "metal filing cabinet": {
     "carbonFootprint": "60.0 kg CO2e/unit",
     "waterUsage": "2,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Recliner Chair": {
+  "recliner chair": {
     "carbonFootprint": "90.0 kg CO2e/unit",
     "waterUsage": "1,800 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Dining Table": {
+  "dining table": {
     "carbonFootprint": "120.0 kg CO2e/unit",
     "waterUsage": "2,500 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Cushion": {
+  "cushion": {
     "carbonFootprint": "15.0 kg CO2e/unit",
     "waterUsage": "1,200 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Bean Bag": {
+  "bean bag": {
     "carbonFootprint": "25.0 kg CO2e/unit",
     "waterUsage": "2,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Bubble Wrap": {
+  "bubble wrap": {
     "carbonFootprint": "3.0 kg CO2e/kg",
     "waterUsage": "1,200 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Plastic Wrap": {
+  "plastic wrap": {
     "carbonFootprint": "4.0 kg CO2e/kg",
     "waterUsage": "1,000 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Shrink Wrap": {
+  "shrink wrap": {
     "carbonFootprint": "2.5 kg CO2e/kg",
     "waterUsage": "1,100 liters/kg",
     "recyclable": false,
     "renewable": false
   },
-  "Aluminum Foil": {
+  "aluminum foil": {
     "carbonFootprint": "2.0 kg CO2e/kg",
     "waterUsage": "800 liters/kg",
     "recyclable": true,
     "renewable": false
   },
-  "Glass Bottles": {
+  "glass bottles": {
     "carbonFootprint": "1.5 kg CO2e/unit",
     "waterUsage": "1,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Tetra Pak Cartons": {
+  "tetra pak cartons": {
     "carbonFootprint": "2.5 kg CO2e/unit",
     "waterUsage": "1,200 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Plastic Bags": {
+  "plastic bags": {
     "carbonFootprint": "5.0 kg CO2e/unit",
     "waterUsage": "1,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Paper Bags": {
+  "paper bags": {
     "carbonFootprint": "1.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Wooden Packaging": {
+  "wooden packaging": {
     "carbonFootprint": "4.0 kg CO2e/unit",
     "waterUsage": "1,800 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Toothpaste Tube": {
+  "toothpaste tube": {
     "carbonFootprint": "2.0 kg CO2e/unit",
     "waterUsage": "100 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Shampoo Bottle": {
+  "shampoo bottle": {
     "carbonFootprint": "1.5 kg CO2e/unit",
     "waterUsage": "200 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Cleaning Spray Bottle": {
+  "cleaning spray bottle": {
     "carbonFootprint": "2.5 kg CO2e/unit",
     "waterUsage": "300 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Dishwasher Detergent": {
+  "dishwasher detergent": {
     "carbonFootprint": "1.0 kg CO2e/unit",
     "waterUsage": "150 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Cotton Towels": {
+  "cotton towels": {
     "carbonFootprint": "5.0 kg CO2e/unit",
     "waterUsage": "4,500 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Rubber Gloves": {
+  "rubber gloves": {
     "carbonFootprint": "3.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Broom": {
+  "broom": {
     "carbonFootprint": "2.0 kg CO2e/unit",
     "waterUsage": "100 liters/unit",
     "recyclable": false,
     "renewable": false
   },
-  "Trash Bag": {
+  "trash bag": {
     "carbonFootprint": "3.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Car Tire": {
+  "car tire": {
     "carbonFootprint": "200.0 kg CO2e/unit",
     "waterUsage": "3,000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Car Battery": {
+  "car battery": {
     "carbonFootprint": "100.0 kg CO2e/unit",
     "waterUsage": "2,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Windshield Glass": {
+  "windshield glass": {
     "carbonFootprint": "15.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Plastic Car Parts": {
+  "plastic car parts": {
     "carbonFootprint": "50.0 kg CO2e/unit",
     "waterUsage": "1,200 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Leather Seats": {
+  "leather seats": {
     "carbonFootprint": "80.0 kg CO2e/unit",
     "waterUsage": "1,500 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Brick": {
+  "brick": {
     "carbonFootprint": "500.0 kg CO2e/ton",
     "waterUsage": "1,000 liters/ton",
     "recyclable": false,
     "renewable": false
   },
-  "Wood (Pine)": {
+  "wood (pine)": {
     "carbonFootprint": "200.0 kg CO2e/ton",
     "waterUsage": "5,000 liters/ton",
     "recyclable": true,
     "renewable": true
   },
-  "Glass (Building)": {
+  "glass (building)": {
     "carbonFootprint": "300.0 kg CO2e/ton",
     "waterUsage": "800 liters/ton",
     "recyclable": true,
     "renewable": false
   },
-  "Canned Soup": {
+  "canned soup": {
     "carbonFootprint": "0.8 kg CO2e/unit",
     "waterUsage": "100 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Canned Tuna": {
+  "canned tuna": {
     "carbonFootprint": "1.2 kg CO2e/unit",
     "waterUsage": "120 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Frozen Vegetables": {
+  "frozen vegetables": {
     "carbonFootprint": "1.0 kg CO2e/unit",
     "waterUsage": "150 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Almond Milk": {
+  "almond milk": {
     "carbonFootprint": "1.5 kg CO2e/unit",
     "waterUsage": "250 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Peanut Butter": {
+  "peanut butter": {
     "carbonFootprint": "1.2 kg CO2e/unit",
     "waterUsage": "300 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Chips Bag": {
+  "chips bag": {
     "carbonFootprint": "0.6 kg CO2e/unit",
     "waterUsage": "80 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Energy Drink": {
+  "energy drink": {
     "carbonFootprint": "0.9 kg CO2e/unit",
     "waterUsage": "120 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Toilet Paper": {
+  "toilet paper": {
     "carbonFootprint": "1.0 kg CO2e/unit",
     "waterUsage": "200 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Tissues": {
+  "tissues": {
     "carbonFootprint": "1.5 kg CO2e/unit",
     "waterUsage": "250 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Paper Towels": {
+  "paper towels": {
     "carbonFootprint": "1.2 kg CO2e/unit",
     "waterUsage": "200 liters/unit",
     "recyclable": true,
     "renewable": true
   },
-  "Cleaning Wipes": {
+  "cleaning wipes": {
     "carbonFootprint": "2.0 kg CO2e/unit",
     "waterUsage": "500 liters/unit",
     "recyclable": false,
     "renewable": false
   },
-  "Plastic Trash Can": {
-    "carbonFootprint": "3.0 kg CO2e/unit",
-    "waterUsage": "1,000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Laundry Detergent Bottle": {
-    "carbonFootprint": "1.3 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Fabric Softener Bottle": {
-    "carbonFootprint": "1.2 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Juice Box": {
-    "carbonFootprint": "1.2 kg CO2e/unit",
-    "waterUsage": "400 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Wine Bottle": {
-    "carbonFootprint": "3.0 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Cup": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Straw": {
-    "carbonFootprint": "0.1 kg CO2e/unit",
-    "waterUsage": "20 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Cereal Box": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Printer Paper": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Envelopes": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "20 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Cardboard Box": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "40 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Sticky Notes": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Folder": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Shaving Razor": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Conditioner Bottle": {
-    "carbonFootprint": "1.2 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Toothbrush": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "30 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Bar Soap": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "60 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Deodorant Stick": {
-    "carbonFootprint": "0.7 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Smartphone Case": {
-    "carbonFootprint": "2.0 kg CO2e/unit",
-    "waterUsage": "250 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Laptop Charger": {
-    "carbonFootprint": "3.0 kg CO2e/unit",
-    "waterUsage": "400 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Wireless Mouse": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Smart Speaker": {
-    "carbonFootprint": "2.5 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Vacuum Cleaner": {
-    "carbonFootprint": "60.0 kg CO2e/unit",
-    "waterUsage": "1,000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Electric Kettle": {
-    "carbonFootprint": "30.0 kg CO2e/unit",
-    "waterUsage": "600 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Bamboo Toothbrush": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "20 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Cotton T-shirt": {
-    "carbonFootprint": "5.0 kg CO2e/unit",
-    "waterUsage": "2,700 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Cotton Jeans": {
-    "carbonFootprint": "7.0 kg CO2e/unit",
-    "waterUsage": "5,000 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Wool Sweater": {
-    "carbonFootprint": "8.0 kg CO2e/unit",
-    "waterUsage": "1,200 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Leather Belt": {
-    "carbonFootprint": "10.0 kg CO2e/unit",
-    "waterUsage": "1,000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Sunglasses": {
-    "carbonFootprint": "2.5 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Rubber Boots": {
-    "carbonFootprint": "15.0 kg CO2e/unit",
-    "waterUsage": "1,500 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Canned Beans": {
-    "carbonFootprint": "1.0 kg CO2e/unit",
-    "waterUsage": "120 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Rice (Packaged)": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "1,500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Chocolate Bar": {
-    "carbonFootprint": "1.1 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Instant Noodles": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Tea Bags": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Coffee Pack": {
-    "carbonFootprint": "0.9 kg CO2e/unit",
-    "waterUsage": "180 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Frozen Pizza": {
-    "carbonFootprint": "1.5 kg CO2e/unit",
-    "waterUsage": "250 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Dish Soap": {
-    "carbonFootprint": "0.7 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Glass Cleaner": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Trash Bags (Plastic)": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Mop": {
-    "carbonFootprint": "2.0 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Scrub Brush": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Milk Carton": {
-    "carbonFootprint": "0.7 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Beer Bottle": {
-    "carbonFootprint": "2.5 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Tetra Pak Juice Carton": {
-    "carbonFootprint": "1.3 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Frozen Fruit": {
-    "carbonFootprint": "1.2 kg CO2e/unit",
-    "waterUsage": "250 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Olive Oil Bottle": {
-    "carbonFootprint": "1.8 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Fruit Snacks": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Notepad": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Whiteboard Marker": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "30 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "File Folders": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "70 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Stapler": {
-    "carbonFootprint": "1.5 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Lip Balm": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "20 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Shaving Foam": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Hand Sanitizer": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "60 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Nail Polish": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Bluetooth Headphones": {
-    "carbonFootprint": "30.0 kg CO2e/unit",
-    "waterUsage": "400 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Laptop Bag": {
-    "carbonFootprint": "2.5 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Portable Charger": {
-    "carbonFootprint": "10.0 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "LED Light Bulb": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Wooden Chair": {
-    "carbonFootprint": "8.0 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Steel Desk": {
-    "carbonFootprint": "20.0 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Fabric Sofa": {
-    "carbonFootprint": "12.0 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Storage Box": {
-    "carbonFootprint": "4.0 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Pet Food Bag": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Tennis Ball": {
-    "carbonFootprint": "0.7 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Bicycle Tire": {
-    "carbonFootprint": "5.0 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Cutlery": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "30 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Water Bottle": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "3 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Food Container": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "5 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Coffee Cup": {
-    "carbonFootprint": "0.1 kg CO2e/unit",
-    "waterUsage": "2 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Detergent Bottle": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "20 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Grocery Bag": {
-    "carbonFootprint": "0.01 kg CO2e/unit",
-    "waterUsage": "0.5 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Cutlery Set": {
-    "carbonFootprint": "0.05 kg CO2e/set",
-    "waterUsage": "1 liter/set",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Disposable Coffee Lid": {
-    "carbonFootprint": "0.02 kg CO2e/unit",
-    "waterUsage": "0.3 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Milk Jug": {
-    "carbonFootprint": "0.25 kg CO2e/unit",
-    "waterUsage": "6 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Sauce Bottle": {
-    "carbonFootprint": "0.15 kg CO2e/unit",
-    "waterUsage": "4 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Wrapping Film": {
-    "carbonFootprint": "0.03 kg CO2e/meter",
-    "waterUsage": "0.5 liters/meter",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Toothpaste Tube": {
-    "carbonFootprint": "0.05 kg CO2e/unit",
-    "waterUsage": "1 liter/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Lotion Pump Bottle": {
-    "carbonFootprint": "0.1 kg CO2e/unit",
-    "waterUsage": "2 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Snack Wrapper": {
-    "carbonFootprint": "0.01 kg CO2e/unit",
-    "waterUsage": "0.3 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Soap Dispenser": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "5 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Trash Bag": {
-    "carbonFootprint": "0.04 kg CO2e/unit",
-    "waterUsage": "0.7 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Spray Bottle": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "7 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Food Wrap": {
-    "carbonFootprint": "0.02 kg CO2e/unit",
-    "waterUsage": "0.5 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Baby Bottle": {
-    "carbonFootprint": "0.15 kg CO2e/unit",
-    "waterUsage": "3 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
+  
+    "plastic trash can": {
+      "carbonfootprint": "3.0 kg CO2e/unit",
+      "waterusage": "1,000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "laundry detergent bottle": {
+      "carbonfootprint": "1.3 kg CO2e/unit",
+      "waterusage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "fabric softener bottle": {
+      "carbonfootprint": "1.2 kg CO2e/unit",
+      "waterusage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "juice box": {
+      "carbonfootprint": "1.2 kg CO2e/unit",
+      "waterusage": "400 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "wine bottle": {
+      "carbonfootprint": "3.0 kg CO2e/unit",
+      "waterusage": "500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic cup": {
+      "carbonfootprint": "0.2 kg CO2e/unit",
+      "waterusage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic straw": {
+      "carbonfootprint": "0.1 kg CO2e/unit",
+      "waterusage": "20 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "cereal box": {
+      "carbonfootprint": "0.4 kg CO2e/unit",
+      "waterusage": "100 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "printer paper": {
+      "carbonfootprint": "0.5 kg CO2e/unit",
+      "waterusage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "envelopes": {
+      "carbonfootprint": "0.2 kg CO2e/unit",
+      "waterusage": "20 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "cardboard box": {
+      "carbonfootprint": "0.3 kg CO2e/unit",
+      "waterusage": "40 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "sticky notes": {
+      "carbonfootprint": "0.6 kg CO2e/unit",
+      "waterusage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic folder": {
+      "carbonfootprint": "0.8 kg CO2e/unit",
+      "waterusage": "100 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "shaving razor": {
+      "carbonfootprint": "0.5 kg CO2e/unit",
+      "waterusage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "conditioner bottle": {
+      "carbonfootprint": "1.2 kg CO2e/unit",
+      "waterusage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "toothbrush": {
+      "carbonfootprint": "0.2 kg CO2e/unit",
+      "waterusage": "30 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "bar soap": {
+      "carbonfootprint": "0.4 kg CO2e/unit",
+      "waterusage": "60 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "deodorant stick": {
+      "carbonfootprint": "0.7 kg CO2e/unit",
+      "waterusage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "smartphone case": {
+      "carbonfootprint": "2.0 kg CO2e/unit",
+      "waterusage": "250 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "laptop charger": {
+      "carbonfootprint": "3.0 kg CO2e/unit",
+      "waterusage": "400 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "wireless mouse": {
+      "carbonfootprint": "0.8 kg CO2e/unit",
+      "waterusage": "100 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "smart speaker": {
+      "carbonfootprint": "2.5 kg CO2e/unit",
+      "waterusage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "vacuum cleaner": {
+      "carbonfootprint": "60.0 kg CO2e/unit",
+      "waterusage": "1,000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "electric kettle": {
+      "carbonfootprint": "30.0 kg CO2e/unit",
+      "waterusage": "600 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "bamboo toothbrush": {
+      "carbonfootprint": "0.3 kg CO2e/unit",
+      "waterusage": "20 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "cotton t-shirt": {
+      "carbonfootprint": "5.0 kg CO2e/unit",
+      "waterusage": "2,700 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "cotton jeans": {
+      "carbonfootprint": "7.0 kg CO2e/unit",
+      "waterusage": "5,000 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "wool sweater": {
+      "carbonfootprint": "8.0 kg CO2e/unit",
+      "waterusage": "1,200 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "leather belt": {
+      "carbonfootprint": "10.0 kg CO2e/unit",
+      "waterusage": "1,000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic sunglasses": {
+      "carbonfootprint": "2.5 kg CO2e/unit",
+      "waterusage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "rubber boots": {
+      "carbonfootprint": "15.0 kg CO2e/unit",
+      "waterusage": "1,500 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "canned beans": {
+      "carbonfootprint": "1.0 kg CO2e/unit",
+      "waterusage": "120 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "rice (packaged)": {
+      "carbonfootprint": "0.6 kg CO2e/unit",
+      "waterusage": "1,500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "chocolate bar": {
+      "carbonfootprint": "1.1 kg CO2e/unit",
+      "waterusage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "instant noodles": {
+      "carbonfootprint": "0.8 kg CO2e/unit",
+      "waterusage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "tea bags": {
+      "carbonfootprint": "0.5 kg CO2e/unit",
+      "waterusage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "coffee pack": {
+      "carbonfootprint": "0.9 kg CO2e/unit",
+      "waterusage": "180 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "frozen pizza": {
+      "carbonfootprint": "1.5 kg CO2e/unit",
+      "waterusage": "250 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    }
+  }
+  
+  
+    "dish soap": {
+      "carbonFootprint": "0.7 kg CO2e/unit",
+      "waterUsage": "100 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "glass cleaner": {
+      "carbonFootprint": "0.6 kg CO2e/unit",
+      "waterUsage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "trash bags (plastic)": {
+      "carbonFootprint": "0.5 kg CO2e/unit",
+      "waterUsage": "100 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "mop": {
+      "carbonFootprint": "2.0 kg CO2e/unit",
+      "waterUsage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "scrub brush": {
+      "carbonFootprint": "0.4 kg CO2e/unit",
+      "waterUsage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "milk carton": {
+      "carbonFootprint": "0.7 kg CO2e/unit",
+      "waterUsage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "beer bottle": {
+      "carbonFootprint": "2.5 kg CO2e/unit",
+      "waterUsage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "tetra pak juice carton": {
+      "carbonFootprint": "1.3 kg CO2e/unit",
+      "waterUsage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "frozen fruit": {
+      "carbonFootprint": "1.2 kg CO2e/unit",
+      "waterUsage": "250 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "olive oil bottle": {
+      "carbonFootprint": "1.8 kg CO2e/unit",
+      "waterUsage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "fruit snacks": {
+      "carbonFootprint": "0.5 kg CO2e/unit",
+      "waterUsage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "notepad": {
+      "carbonFootprint": "0.6 kg CO2e/unit",
+      "waterUsage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "whiteboard marker": {
+      "carbonFootprint": "0.3 kg CO2e/unit",
+      "waterUsage": "30 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "file folders": {
+      "carbonFootprint": "0.8 kg CO2e/unit",
+      "waterUsage": "70 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "stapler": {
+      "carbonFootprint": "1.5 kg CO2e/unit",
+      "waterUsage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "lip balm": {
+      "carbonFootprint": "0.2 kg CO2e/unit",
+      "waterUsage": "20 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "shaving foam": {
+      "carbonFootprint": "0.8 kg CO2e/unit",
+      "waterUsage": "100 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "hand sanitizer": {
+      "carbonFootprint": "0.4 kg CO2e/unit",
+      "waterUsage": "60 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "nail polish": {
+      "carbonFootprint": "0.5 kg CO2e/unit",
+      "waterUsage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "bluetooth headphones": {
+      "carbonFootprint": "30.0 kg CO2e/unit",
+      "waterUsage": "400 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "laptop bag": {
+      "carbonFootprint": "2.5 kg CO2e/unit",
+      "waterUsage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "portable charger": {
+      "carbonFootprint": "10.0 kg CO2e/unit",
+      "waterUsage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "led light bulb": {
+      "carbonFootprint": "0.5 kg CO2e/unit",
+      "waterUsage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "wooden chair": {
+      "carbonFootprint": "8.0 kg CO2e/unit",
+      "waterUsage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "steel desk": {
+      "carbonFootprint": "20.0 kg CO2e/unit",
+      "waterUsage": "500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "fabric sofa": {
+      "carbonFootprint": "12.0 kg CO2e/unit",
+      "waterUsage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic storage box": {
+      "carbonFootprint": "4.0 kg CO2e/unit",
+      "waterUsage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "pet food bag": {
+      "carbonFootprint": "0.5 kg CO2e/unit",
+      "waterUsage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "tennis ball": {
+      "carbonFootprint": "0.7 kg CO2e/unit",
+      "waterUsage": "50 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "bicycle tire": {
+      "carbonFootprint": "5.0 kg CO2e/unit",
+      "waterUsage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic cutlery": {
+      "carbonFootprint": "0.3 kg CO2e/unit",
+      "waterUsage": "30 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic water bottle": {
+      "carbonFootprint": "0.2 kg CO2e/unit",
+      "waterUsage": "3 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic food container": {
+      "carbonFootprint": "0.3 kg CO2e/unit",
+      "waterUsage": "5 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic coffee cup": {
+      "carbonFootprint": "0.1 kg CO2e/unit",
+      "waterUsage": "2 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic detergent bottle": {
+      "carbonFootprint": "0.6 kg CO2e/unit",
+      "waterUsage": "20 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic grocery bag": {
+      "carbonFootprint": "0.01 kg CO2e/unit",
+      "waterUsage": "0.5 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic cutlery set": {
+      "carbonFootprint": "0.05 kg CO2e/set",
+      "waterUsage": "1 liter/set",
+      "recyclable": false,
+      "renewable": false
+    },
+    "disposable coffee lid": {
+      "carbonFootprint": "0.02 kg CO2e/unit",
+      "waterUsage": "0.3 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic milk jug": {
+      "carbonFootprint": "0.25 kg CO2e/unit",
+      "waterUsage": "6 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic sauce bottle": {
+      "carbonFootprint": "0.15 kg CO2e/unit",
+      "waterUsage": "4 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic wrapping film": {
+      "carbonFootprint": "0.03 kg CO2e/meter",
+      "waterUsage": "0.5 liters/meter",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic toothpaste tube": {
+      "carbonFootprint": "0.05 kg CO2e/unit",
+      "waterUsage": "1 liter/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic lotion pump bottle": {
+      "carbonFootprint": "0.1 kg CO2e/unit",
+      "waterUsage": "2 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic snack wrapper": {
+      "carbonFootprint": "0.01 kg CO2e/unit",
+      "waterUsage": "0.3 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic soap dispenser": {
+      "carbonFootprint": "0.2 kg CO2e/unit",
+      "waterUsage": "5 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic trash bag": {
+      "carbonFootprint": "0.04 kg CO2e/unit",
+      "waterUsage": "0.7 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic spray bottle": {
+      "carbonFootprint": "0.3 kg CO2e/unit",
+      "waterUsage": "7 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic food wrap": {
+      "carbonFootprint": "0.02 kg CO2e/unit",
+      "waterUsage": "0.5 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic baby bottle": {
+      "carbonfootprint": "0.15 kg co2e/unit",
+      "waterusage": "3 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "wristwatch": {
+      "carbonfootprint": "2.1 kg co2e/unit",
+      "waterusage": "500 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "leather bracelet": {
+      "carbonfootprint": "1.5 kg co2e/unit",
+      "waterusage": "300 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "sunglasses": {
+      "carbonfootprint": "0.6 kg co2e/unit",
+      "waterusage": "100 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "leather wallet": {
+      "carbonfootprint": "1.2 kg co2e/unit",
+      "waterusage": "200 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "silk scarf": {
+      "carbonfootprint": "0.8 kg co2e/unit",
+      "waterusage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "cotton bandana": {
+      "carbonfootprint": "0.3 kg co2e/unit",
+      "waterusage": "50 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "metal keychain": {
+      "carbonfootprint": "0.4 kg co2e/unit",
+      "waterusage": "60 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "beaded necklace": {
+      "carbonfootprint": "0.5 kg co2e/unit",
+      "waterusage": "80 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "cotton cap": {
+      "carbonfootprint": "0.7 kg co2e/unit",
+      "waterusage": "120 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "polyester hat": {
+      "carbonfootprint": "0.6 kg co2e/unit",
+      "waterusage": "100 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic hair clip": {
+      "carbonfootprint": "0.2 kg co2e/unit",
+      "waterusage": "30 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "cotton gloves": {
+      "carbonfootprint": "0.3 kg co2e/unit",
+      "waterusage": "40 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "wool hat": {
+      "carbonfootprint": "0.9 kg co2e/unit",
+      "waterusage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "rubber bracelet": {
+      "carbonfootprint": "0.5 kg co2e/unit",
+      "waterusage": "90 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "synthetic lanyard": {
+      "carbonfootprint": "0.4 kg co2e/unit",
+      "waterusage": "70 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "cotton tote bag": {
+      "carbonfootprint": "0.6 kg co2e/unit",
+      "waterusage": "120 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "wool scarf": {
+      "carbonfootprint": "0.7 kg co2e/unit",
+      "waterusage": "140 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "gold ring": {
+      "carbonfootprint": "1.8 kg co2e/unit",
+      "waterusage": "500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "silver necklace": {
+      "carbonfootprint": "1.5 kg co2e/unit",
+      "waterusage": "400 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "copper bracelet": {
+      "carbonfootprint": "0.8 kg co2e/unit",
+      "waterusage": "120 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plastic earrings": {
+      "carbonfootprint": "0.3 kg co2e/unit",
+      "waterusage": "40 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "silicone phone case": {
+      "carbonfootprint": "0.5 kg co2e/unit",
+      "waterusage": "60 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "canvas tote bag": {
+      "carbonfootprint": "0.4 kg co2e/unit",
+      "waterusage": "80 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "denim wallet": {
+      "carbonfootprint": "0.6 kg co2e/unit",
+      "waterusage": "110 liters/unit",
+      "recyclable": false,
+      "renewable": true
+    },
+    "plastic sunglasses case": {
+      "carbonfootprint": "0.3 kg co2e/unit",
+      "waterusage": "50 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "wooden dining table": {
+      "carbonfootprint": "15 kg co2e/unit",
+      "waterusage": "2500 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "plastic chair": {
+      "carbonfootprint": "3 kg co2e/unit",
+      "waterusage": "400 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "leather sofa": {
+      "carbonfootprint": "50 kg co2e/unit",
+      "waterusage": "9000 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "metal bed frame": {
+      "carbonfootprint": "20 kg co2e/unit",
+      "waterusage": "1500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "glass coffee table": {
+      "carbonfootprint": "8 kg co2e/unit",
+      "waterusage": "1200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "bamboo shelf": {
+      "carbonfootprint": "5 kg co2e/unit",
+      "waterusage": "700 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "particle board cabinet": {
+      "carbonfootprint": "10 kg co2e/unit",
+      "waterusage": "1300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "fabric armchair": {
+      "carbonfootprint": "15 kg co2e/unit",
+      "waterusage": "2500 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "steel office desk": {
+      "carbonfootprint": "18 kg co2e/unit",
+      "waterusage": "1700 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "foam mattress": {
+      "carbonfootprint": "30 kg co2e/unit",
+      "waterusage": "4000 liters/unit",
+      "recyclable": false,
+      "renewable": false
+    },
+    "plastic storage bin": {
+      "carbonfootprint": "1.5 kg co2e/unit",
+      "waterusage": "200 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "wooden dresser": {
+      "carbonfootprint": "16 kg co2e/unit",
+      "waterusage": "2300 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "rattan chair": {
+      "carbonfootprint": "5 kg co2e/unit",
+      "waterusage": "800 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "aluminum patio table": {
+      "carbonfootprint": "8 kg co2e/unit",
+      "waterusage": "600 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "plywood bed frame": {
+      "carbonfootprint": "12 kg co2e/unit",
+      "waterusage": "1600 liters/unit",
+      "recyclable": true,
+      "renewable": true
+    },
+    "glass display cabinet": {
+     
+  
 
-  "Wristwatch": {
-    "carbonFootprint": "2.1 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Leather Bracelet": {
-    "carbonFootprint": "1.5 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Sunglasses": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Leather Wallet": {
-    "carbonFootprint": "1.2 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Silk Scarf": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Cotton Bandana": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Metal Keychain": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "60 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Beaded Necklace": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Cotton Cap": {
-    "carbonFootprint": "0.7 kg CO2e/unit",
-    "waterUsage": "120 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Polyester Hat": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "100 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Hair Clip": {
-    "carbonFootprint": "0.2 kg CO2e/unit",
-    "waterUsage": "30 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Cotton Gloves": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "40 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Wool Hat": {
-    "carbonFootprint": "0.9 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Rubber Bracelet": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "90 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Synthetic Lanyard": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "70 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Cotton Tote Bag": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "120 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Wool Scarf": {
-    "carbonFootprint": "0.7 kg CO2e/unit",
-    "waterUsage": "140 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Gold Ring": {
-    "carbonFootprint": "1.8 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Silver Necklace": {
-    "carbonFootprint": "1.5 kg CO2e/unit",
-    "waterUsage": "400 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Copper Bracelet": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "120 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plastic Earrings": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "40 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Silicone Phone Case": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "60 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Canvas Tote Bag": {
-    "carbonFootprint": "0.4 kg CO2e/unit",
-    "waterUsage": "80 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Denim Wallet": {
-    "carbonFootprint": "0.6 kg CO2e/unit",
-    "waterUsage": "110 liters/unit",
-    "recyclable": false,
-    "renewable": true
-  },
-  "Plastic Sunglasses Case": {
-    "carbonFootprint": "0.3 kg CO2e/unit",
-    "waterUsage": "50 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-
-  "Wooden Dining Table": {
-    "carbonFootprint": "15 kg CO2e/unit",
-    "waterUsage": "2500 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Plastic Chair": {
-    "carbonFootprint": "3 kg CO2e/unit",
-    "waterUsage": "400 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Leather Sofa": {
-    "carbonFootprint": "50 kg CO2e/unit",
-    "waterUsage": "9000 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Metal Bed Frame": {
-    "carbonFootprint": "20 kg CO2e/unit",
-    "waterUsage": "1500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Glass Coffee Table": {
-    "carbonFootprint": "8 kg CO2e/unit",
-    "waterUsage": "1200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Bamboo Shelf": {
-    "carbonFootprint": "5 kg CO2e/unit",
-    "waterUsage": "700 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Particle Board Cabinet": {
-    "carbonFootprint": "10 kg CO2e/unit",
-    "waterUsage": "1300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Fabric Armchair": {
-    "carbonFootprint": "15 kg CO2e/unit",
-    "waterUsage": "2500 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Steel Office Desk": {
-    "carbonFootprint": "18 kg CO2e/unit",
-    "waterUsage": "1700 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Foam Mattress": {
-    "carbonFootprint": "30 kg CO2e/unit",
-    "waterUsage": "4000 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Plastic Storage Bin": {
-    "carbonFootprint": "1.5 kg CO2e/unit",
-    "waterUsage": "200 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Wooden Dresser": {
-    "carbonFootprint": "16 kg CO2e/unit",
-    "waterUsage": "2300 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Rattan Chair": {
-    "carbonFootprint": "5 kg CO2e/unit",
-    "waterUsage": "800 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Aluminum Patio Table": {
-    "carbonFootprint": "8 kg CO2e/unit",
-    "waterUsage": "600 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Plywood Bed Frame": {
-    "carbonFootprint": "12 kg CO2e/unit",
-    "waterUsage": "1600 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Glass Display Cabinet": {
-    "carbonFootprint": "10 kg CO2e/unit",
-    "waterUsage": "1300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Fabric Ottoman": {
-    "carbonFootprint": "5 kg CO2e/unit",
-    "waterUsage": "600 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Recycled Plastic Stool": {
-    "carbonFootprint": "2 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Cork Coffee Table": {
-    "carbonFootprint": "4 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Stone Countertop": {
-    "carbonFootprint": "25 kg CO2e/unit",
-    "waterUsage": "3500 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Rubberwood Stool": {
-    "carbonFootprint": "4 kg CO2e/unit",
-    "waterUsage": "700 liters/unit",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Wrought Iron Headboard": {
-    "carbonFootprint": "14 kg CO2e/unit",
-    "waterUsage": "1100 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Wicker Patio Set": {
-    "carbonFootprint": "10 kg CO2e/set",
-    "waterUsage": "1400 liters/set",
-    "recyclable": true,
-    "renewable": true
-  },
-  "Ceramic Side Table": {
-    "carbonFootprint": "7 kg CO2e/unit",
-    "waterUsage": "1000 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-  "Velvet Couch": {
-    "carbonFootprint": "45 kg CO2e/unit",
-    "waterUsage": "7000 liters/unit",
-    "recyclable": false,
-    "renewable": false
-  },
-
-  "LED TV": {
+  "lED tV": {
     "carbonFootprint": "150 kg CO2e/unit",
     "waterUsage": "30000 liters/unit",
     "recyclable": true,
     "renewable": false
   },
-  "Gaming Console": {
-    "carbonFootprint": "100 kg CO2e/unit",
-    "waterUsage": "18000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Bluetooth Speaker": {
-    "carbonFootprint": "8 kg CO2e/unit",
-    "waterUsage": "2500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Digital Camera": {
-    "carbonFootprint": "30 kg CO2e/unit",
-    "waterUsage": "6000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Printer": {
-    "carbonFootprint": "40 kg CO2e/unit",
-    "waterUsage": "10000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "E-reader": {
-    "carbonFootprint": "20 kg CO2e/unit",
-    "waterUsage": "5000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Microwave Oven": {
-    "carbonFootprint": "60 kg CO2e/unit",
-    "waterUsage": "8000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Air Conditioner": {
-    "carbonFootprint": "600 kg CO2e/unit",
-    "waterUsage": "70000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Hair Dryer": {
-    "carbonFootprint": "10 kg CO2e/unit",
-    "waterUsage": "1000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Toaster": {
-    "carbonFootprint": "5 kg CO2e/unit",
-    "waterUsage": "900 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Electric Fan": {
-    "carbonFootprint": "15 kg CO2e/unit",
-    "waterUsage": "1500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Dishwasher": {
-    "carbonFootprint": "300 kg CO2e/unit",
-    "waterUsage": "55000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Electric Iron": {
-    "carbonFootprint": "8 kg CO2e/unit",
-    "waterUsage": "800 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Portable Projector": {
-    "carbonFootprint": "12 kg CO2e/unit",
-    "waterUsage": "1800 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Smart Thermostat": {
-    "carbonFootprint": "6 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Electric Shaver": {
-    "carbonFootprint": "5 kg CO2e/unit",
-    "waterUsage": "700 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Air Purifier": {
-    "carbonFootprint": "50 kg CO2e/unit",
-    "waterUsage": "7000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Electric Scooter": {
-    "carbonFootprint": "200 kg CO2e/unit",
-    "waterUsage": "30000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Jeans": {
-    "carbonFootprint": "33.4 kg CO2e/pair",
-    "waterUsage": "8000 liters/pair",
-    "recyclable": true,
-    "renewable": false
-  },
-  "T-Shirt": {
-    "carbonFootprint": "2.1 kg CO2e/shirt",
-    "waterUsage": "2700 liters/shirt",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Sweater": {
-    "carbonFootprint": "12 kg CO2e/unit",
-    "waterUsage": "3500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Jacket": {
-    "carbonFootprint": "15 kg CO2e/unit",
-    "waterUsage": "5000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Dress": {
-    "carbonFootprint": "9 kg CO2e/unit",
-    "waterUsage": "3500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Shorts": {
-    "carbonFootprint": "4 kg CO2e/pair",
-    "waterUsage": "2500 liters/pair",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Socks": {
-    "carbonFootprint": "0.6 kg CO2e/pair",
-    "waterUsage": "100 liters/pair",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Scarf": {
-    "carbonFootprint": "1 kg CO2e/unit",
-    "waterUsage": "500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Blouse": {
-    "carbonFootprint": "5 kg CO2e/unit",
-    "waterUsage": "1500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Suit": {
-    "carbonFootprint": "20 kg CO2e/unit",
-    "waterUsage": "7000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Pajamas": {
-    "carbonFootprint": "3 kg CO2e/set",
-    "waterUsage": "1800 liters/set",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Gloves": {
-    "carbonFootprint": "1.5 kg CO2e/pair",
-    "waterUsage": "500 liters/pair",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Hat": {
-    "carbonFootprint": "0.8 kg CO2e/unit",
-    "waterUsage": "300 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Swimsuit": {
-    "carbonFootprint": "2 kg CO2e/unit",
-    "waterUsage": "700 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Raincoat": {
-    "carbonFootprint": "10 kg CO2e/unit",
-    "waterUsage": "4000 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Vest": {
-    "carbonFootprint": "4 kg CO2e/unit",
-    "waterUsage": "1500 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Yoga Pants": {
-    "carbonFootprint": "3 kg CO2e/pair",
-    "waterUsage": "2000 liters/pair",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Undergarments": {
-    "carbonFootprint": "1 kg CO2e/set",
-    "waterUsage": "700 liters/set",
-    "recyclable": true,
-    "renewable": false
-  },
-  "Cap": {
-    "carbonFootprint": "0.5 kg CO2e/unit",
-    "waterUsage": "150 liters/unit",
-    "recyclable": true,
-    "renewable": false
-  }
-}
+  
+    "gaming console": {
+      "carbonfootprint": "100 kg CO2e/unit",
+      "waterusage": "18000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "bluetooth speaker": {
+      "carbonfootprint": "8 kg CO2e/unit",
+      "waterusage": "2500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "digital camera": {
+      "carbonfootprint": "30 kg CO2e/unit",
+      "waterusage": "6000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "printer": {
+      "carbonfootprint": "40 kg CO2e/unit",
+      "waterusage": "10000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "e-reader": {
+      "carbonfootprint": "20 kg CO2e/unit",
+      "waterusage": "5000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "microwave oven": {
+      "carbonfootprint": "60 kg CO2e/unit",
+      "waterusage": "8000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "air conditioner": {
+      "carbonfootprint": "600 kg CO2e/unit",
+      "waterusage": "70000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "hair dryer": {
+      "carbonfootprint": "10 kg CO2e/unit",
+      "waterusage": "1000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "toaster": {
+      "carbonfootprint": "5 kg CO2e/unit",
+      "waterusage": "900 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "electric fan": {
+      "carbonfootprint": "15 kg CO2e/unit",
+      "waterusage": "1500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "dishwasher": {
+      "carbonfootprint": "300 kg CO2e/unit",
+      "waterusage": "55000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "electric iron": {
+      "carbonfootprint": "8 kg CO2e/unit",
+      "waterusage": "800 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "portable projector": {
+      "carbonfootprint": "12 kg CO2e/unit",
+      "waterusage": "1800 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "smart thermostat": {
+      "carbonfootprint": "6 kg CO2e/unit",
+      "waterusage": "500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "electric shaver": {
+      "carbonfootprint": "5 kg CO2e/unit",
+      "waterusage": "700 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "air purifier": {
+      "carbonfootprint": "50 kg CO2e/unit",
+      "waterusage": "7000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "electric scooter": {
+      "carbonfootprint": "200 kg CO2e/unit",
+      "waterusage": "30000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "jeans": {
+      "carbonfootprint": "33.4 kg CO2e/pair",
+      "waterusage": "8000 liters/pair",
+      "recyclable": true,
+      "renewable": false
+    },
+    "t-shirt": {
+      "carbonfootprint": "2.1 kg CO2e/shirt",
+      "waterusage": "2700 liters/shirt",
+      "recyclable": true,
+      "renewable": false
+    },
+    "sweater": {
+      "carbonfootprint": "12 kg CO2e/unit",
+      "waterusage": "3500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "jacket": {
+      "carbonfootprint": "15 kg CO2e/unit",
+      "waterusage": "5000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "dress": {
+      "carbonfootprint": "9 kg CO2e/unit",
+      "waterusage": "3500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "shorts": {
+      "carbonfootprint": "4 kg CO2e/pair",
+      "waterusage": "2500 liters/pair",
+      "recyclable": true,
+      "renewable": false
+    },
+    "socks": {
+      "carbonfootprint": "0.6 kg CO2e/pair",
+      "waterusage": "100 liters/pair",
+      "recyclable": true,
+      "renewable": false
+    },
+    "scarf": {
+      "carbonfootprint": "1 kg CO2e/unit",
+      "waterusage": "500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "blouse": {
+      "carbonfootprint": "5 kg CO2e/unit",
+      "waterusage": "1500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "suit": {
+      "carbonfootprint": "20 kg CO2e/unit",
+      "waterusage": "7000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "pajamas": {
+      "carbonfootprint": "3 kg CO2e/set",
+      "waterusage": "1800 liters/set",
+      "recyclable": true,
+      "renewable": false
+    },
+    "gloves": {
+      "carbonfootprint": "1.5 kg CO2e/pair",
+      "waterusage": "500 liters/pair",
+      "recyclable": true,
+      "renewable": false
+    },
+    "hat": {
+      "carbonfootprint": "0.8 kg CO2e/unit",
+      "waterusage": "300 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "swimsuit": {
+      "carbonfootprint": "2 kg CO2e/unit",
+      "waterusage": "700 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "raincoat": {
+      "carbonfootprint": "10 kg CO2e/unit",
+      "waterusage": "4000 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "vest": {
+      "carbonfootprint": "4 kg CO2e/unit",
+      "waterusage": "1500 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    },
+    "yoga pants": {
+      "carbonfootprint": "3 kg CO2e/pair",
+      "waterusage": "2000 liters/pair",
+      "recyclable": true,
+      "renewable": false
+    },
+    "undergarments": {
+      "carbonfootprint": "1 kg CO2e/set",
+      "waterusage": "700 liters/set",
+      "recyclable": true,
+      "renewable": false
+    },
+    "cap": {
+      "carbonfootprint": "0.5 kg CO2e/unit",
+      "waterusage": "150 liters/unit",
+      "recyclable": true,
+      "renewable": false
+    }
+  
+    }
